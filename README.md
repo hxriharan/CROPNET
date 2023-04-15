@@ -18,57 +18,54 @@ Python 3
 Flask
 Scikit-learn
 Pandas
-You can install Flask, Scikit-learn, and Pandas using the following command:
+
+> You can install Flask, Scikit-learn, and Pandas using the following command:
 
 Copy code
 pip install flask scikit-learn pandas
+
 Installation
 To install Cropnet, follow the steps below:
 
-Clone this repository to your local machine using the command below:
+1. Clone this repository to your local machine using the command below:
 
-bash
-Copy code
 git clone https://github.com/your_username/Cropnet.git
 Alternatively, download the zip file and extract it to a directory of your choice.
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 
-bash
-Copy code
 cd Cropnet
-Start the Flask server:
 
-Copy code
+3. Start the Flask server:
+
 python app.py
 This will start the Flask server on port 5000.
 
-Usage
+> Usage
 To use Cropnet, open your web browser and navigate to http://localhost:5000. This will bring up the Cropnet homepage.
 
 On the homepage, you can enter the details of your farm such as soil type, weather conditions, and water availability. Once you have entered these details, click the "Get Recommendation" button. Cropnet will then use machine learning algorithms to recommend the best crop to be grown in your area.
 
-Contributing
+> Contributing
 If you would like to contribute to Cropnet, please follow the steps below:
 
-Fork this repository.
+1. Fork this repository.
 
-Create a new branch:
+2. Create a new branch:
 
-bash
-Copy code
+For bash 
 git checkout -b feature/my-feature
-Make your changes and commit them:
 
-sql
-Copy code
+3. Make your changes and commit them:
+
+For sql
 git commit -m "Add my feature"
-Push your changes to your forked repository:
 
-perl
-Copy code
+4. Push your changes to your forked repository:
+
+For perl
 git push origin feature/my-feature
 Create a pull request to merge your changes into the main repository.
 
-License
+> License
 This project is licensed under the MIT License - see the LICENSE file for details.
