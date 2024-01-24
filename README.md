@@ -32,7 +32,7 @@ To install Cropnet, follow the steps below:
 git clone https://github.com/hxriharan/CROPNET.git
 Alternatively, download the zip file and extract it to a directory of your choice.
 
-2. Navigate to the project directory:
+2. Navigate to the project directory
 
 cd Cropnet
 
